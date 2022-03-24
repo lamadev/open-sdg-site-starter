@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'https://lamadev.github.io/open-sdg-data-starter/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220113134129">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220324174944">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -414,7 +414,7 @@ data-event-label="high"
       
       
       <div>
-        <a class="btn btn-primary btn-download" target="_blank" href="https://github.com/open-sdg/open-sdg-data-starter/tree/develop/meta">
+        <a class="btn btn-primary btn-download" target="_blank" href="https://github.com/lamadev/open-sdg-data-starter/tree/develop/meta">
           Go to repository
         </a>
       </div>
@@ -480,7 +480,7 @@ data-event-label="high"
 
     
     
-    var schema = {"type":"object","title":"Edit Metadata","properties":{"SDG_INDICATOR_INFO__GLOBAL":{"type":"string","format":"markdown","title":"Indicator information","description":"Scope: global, Field: SDG_INDICATOR_INFO__GLOBAL"},"SDG_GOAL__GLOBAL":{"type":"string","format":"markdown","title":"Goal","description":"Scope: global, Field: SDG_GOAL__GLOBAL"},"SDG_TARGET__GLOBAL":{"type":"string","format":"markdown","title":"Target","description":"Scope: global, Field: SDG_TARGET__GLOBAL"},"SDG_INDICATOR__GLOBAL":{"type":"string","format":"markdown","title":"Indicator","description":"Scope: global, Field: SDG_INDICATOR__GLOBAL"},"SDG_SERIES_DESCR__GLOBAL":{"type":"string","format":"markdown","title":"Series","description":"Scope: global, Field: SDG_SERIES_DESCR__GLOBAL"},"META_LAST_UPDATE__GLOBAL":{"type":"string","format":"markdown","title":"Metadata update","description":"Scope: global, Field: META_LAST_UPDATE__GLOBAL"},"SDG_RELATED_INDICATORS__GLOBAL":{"type":"string","format":"markdown","title":"Related indicators","description":"Scope: global, Field: SDG_RELATED_INDICATORS__GLOBAL"},"SDG_CUSTODIAN_AGENCIES__GLOBAL":{"type":"string","format":"markdown","title":"International organisations(s) responsible for global monitoring","description":"Scope: global, Field: SDG_CUSTODIAN_AGENCIES__GLOBAL"},"CONTACT__GLOBAL":{"type":"string","format":"markdown","title":"Data reporter","description":"Scope: global, Field: CONTACT__GLOBAL"},"CONTACT_ORGANISATION__GLOBAL":{"type":"string","format":"markdown","title":"Organisation","description":"Scope: global, Field: CONTACT_ORGANISATION__GLOBAL"},"CONTACT_NAME__GLOBAL":{"type":"string","format":"markdown","title":"Contact person(s)","description":"Scope: global, Field: CONTACT_NAME__GLOBAL"},"ORGANISATION_UNIT__GLOBAL":{"type":"string","format":"markdown","title":"Contact organisation unit","description":"Scope: global, Field: ORGANISATION_UNIT__GLOBAL"},"CONTACT_FUNCT__GLOBAL":{"type":"string","format":"markdown","title":"Contact person function","description":"Scope: global, Field: CONTACT_FUNCT__GLOBAL"},"CONTACT_PHONE__GLOBAL":{"type":"string","format":"markdown","title":"Contact phone","description":"Scope: global, Field: CONTACT_PHONE__GLOBAL"},"CONTACT_MAIL__GLOBAL":{"type":"string","format":"markdown","title":"Contact mail","description":"Scope: global, Field: CONTACT_MAIL__GLOBAL"},"CONTACT_EMAIL__GLOBAL":{"type":"string","format":"markdown","title":"Contact email","description":"Scope: global, Field: CONTACT_EMAIL__GLOBAL"},"IND_DEF_CON_CLASS__GLOBAL":{"type":"string","format":"markdown","title":"Definition, concepts, and classifications","description":"Scope: global, Field: IND_DEF_CON_CLASS__GLOBAL"},"STAT_CONC_DEF__GLOBAL":{"type":"string","format":"markdown","title":"Definition and concepts","description":"Scope: global, Field: STAT_CONC_DEF__GLOBAL"},"UNIT_MEASURE__GLOBAL":{"type":"string","format":"markdown","title":"Unit of measure","description":"Scope: global, Field: UNIT_MEASURE__GLOBAL"},"CLASS_SYSTEM__GLOBAL":{"type":"string","format":"markdown","title":"Classifications","description":"Scope: global, Field: CLASS_SYSTEM__GLOBAL"},"SRC_TYPE_COLL_METHOD__GLOBAL":{"type":"string","format":"markdown","title":"Data source type and collection method","description":"Scope: global, Field: SRC_TYPE_COLL_METHOD__GLOBAL"},"SOURCE_TYPE__GLOBAL":{"type":"string","format":"markdown","title":"Data sources","description":"Scope: global, Field: SOURCE_TYPE__GLOBAL"},"COLL_METHOD__GLOBAL":{"type":"string","format":"markdown","title":"Data collection method","description":"Scope: global, Field: COLL_METHOD__GLOBAL"},"FREQ_COLL__GLOBAL":{"type":"string","format":"markdown","title":"Data collection calendar","description":"Scope: global, Field: FREQ_COLL__GLOBAL"},"REL_CAL_POLICY__GLOBAL":{"type":"string","format":"markdown","title":"Data release calendar","description":"Scope: global, Field: REL_CAL_POLICY__GLOBAL"},"DATA_SOURCE__GLOBAL":{"type":"string","format":"markdown","title":"Data providers","description":"Scope: global, Field: DATA_SOURCE__GLOBAL"},"COMPILING_ORG__GLOBAL":{"type":"string","format":"markdown","title":"Data compilers","description":"Scope: global, Field: COMPILING_ORG__GLOBAL"},"INST_MANDATE__GLOBAL":{"type":"string","format":"markdown","title":"Institutional mandate","description":"Scope: global, Field: INST_MANDATE__GLOBAL"},"OTHER_METHOD__GLOBAL":{"type":"string","format":"markdown","title":"Other methodological considerations","description":"Scope: global, Field: OTHER_METHOD__GLOBAL"},"RATIONALE__GLOBAL":{"type":"string","format":"markdown","title":"Rationale","description":"Scope: global, Field: RATIONALE__GLOBAL"},"REC_USE_LIM__GLOBAL":{"type":"string","format":"markdown","title":"Comment and limitations","description":"Scope: global, Field: REC_USE_LIM__GLOBAL"},"DATA_COMP__GLOBAL":{"type":"string","format":"markdown","title":"Method of computation","description":"Scope: global, Field: DATA_COMP__GLOBAL"},"DATA_VALIDATION__GLOBAL":{"type":"string","format":"markdown","title":"Validation","description":"Scope: global, Field: DATA_VALIDATION__GLOBAL"},"ADJUSTMENT__GLOBAL":{"type":"string","format":"markdown","title":"Adjustments","description":"Scope: global, Field: ADJUSTMENT__GLOBAL"},"IMPUTATION__GLOBAL":{"type":"string","format":"markdown","title":"Treatment of missing values (i) at country level and (ii) at regional level","description":"Scope: global, Field: IMPUTATION__GLOBAL"},"REG_AGG__GLOBAL":{"type":"string","format":"markdown","title":"Regional aggregations","description":"Scope: global, Field: REG_AGG__GLOBAL"},"DOC_METHOD__GLOBAL":{"type":"string","format":"markdown","title":"Methods and guidance available to countries for the compilation of the data at the national level","description":"Scope: global, Field: DOC_METHOD__GLOBAL"},"QUALITY_MGMNT__GLOBAL":{"type":"string","format":"markdown","title":"Quality management","description":"Scope: global, Field: QUALITY_MGMNT__GLOBAL"},"QUALITY_ASSURE__GLOBAL":{"type":"string","format":"markdown","title":"Quality assurance","description":"Scope: global, Field: QUALITY_ASSURE__GLOBAL"},"QUALITY_ASSMNT__GLOBAL":{"type":"string","format":"markdown","title":"Quality assessment","description":"Scope: global, Field: QUALITY_ASSMNT__GLOBAL"},"COVERAGE__GLOBAL":{"type":"string","format":"markdown","title":"Data availability and disaggregation","description":"Scope: global, Field: COVERAGE__GLOBAL"},"COMPARABILITY__GLOBAL":{"type":"string","format":"markdown","title":"Comparability/deviation from international standards","description":"Scope: global, Field: COMPARABILITY__GLOBAL"},"OTHER_DOC__GLOBAL":{"type":"string","format":"markdown","title":"References and Documentation","description":"Scope: global, Field: OTHER_DOC__GLOBAL"},"SDG_INDICATOR_INFO":{"type":"string","format":"markdown","title":"Indicator information","description":"Scope: national, Field: SDG_INDICATOR_INFO"},"SDG_GOAL":{"type":"string","format":"markdown","title":"Goal","description":"Scope: national, Field: SDG_GOAL"},"SDG_TARGET":{"type":"string","format":"markdown","title":"Target","description":"Scope: national, Field: SDG_TARGET"},"SDG_INDICATOR":{"type":"string","format":"markdown","title":"Indicator","description":"Scope: national, Field: SDG_INDICATOR"},"SDG_SERIES_DESCR":{"type":"string","format":"markdown","title":"Series","description":"Scope: national, Field: SDG_SERIES_DESCR"},"META_LAST_UPDATE":{"type":"string","format":"markdown","title":"Metadata update","description":"Scope: national, Field: META_LAST_UPDATE"},"SDG_RELATED_INDICATORS":{"type":"string","format":"markdown","title":"Related indicators","description":"Scope: national, Field: SDG_RELATED_INDICATORS"},"CONTACT":{"type":"string","format":"markdown","title":"Data reporter","description":"Scope: national, Field: CONTACT"},"CONTACT_ORGANISATION":{"type":"string","format":"markdown","title":"Organisation","description":"Scope: national, Field: CONTACT_ORGANISATION"},"CONTACT_NAME":{"type":"string","format":"markdown","title":"Contact person(s)","description":"Scope: national, Field: CONTACT_NAME"},"ORGANISATION_UNIT":{"type":"string","format":"markdown","title":"Contact organisation unit","description":"Scope: national, Field: ORGANISATION_UNIT"},"CONTACT_FUNCT":{"type":"string","format":"markdown","title":"Contact person function","description":"Scope: national, Field: CONTACT_FUNCT"},"CONTACT_PHONE":{"type":"string","format":"markdown","title":"Contact phone","description":"Scope: national, Field: CONTACT_PHONE"},"CONTACT_MAIL":{"type":"string","format":"markdown","title":"Contact mail","description":"Scope: national, Field: CONTACT_MAIL"},"CONTACT_EMAIL":{"type":"string","format":"markdown","title":"Contact email","description":"Scope: national, Field: CONTACT_EMAIL"},"IND_DEF_CON_CLASS":{"type":"string","format":"markdown","title":"Definition, concepts, and classifications","description":"Scope: national, Field: IND_DEF_CON_CLASS"},"STAT_CONC_DEF":{"type":"string","format":"markdown","title":"Definition and concepts","description":"Scope: national, Field: STAT_CONC_DEF"},"UNIT_MEASURE":{"type":"string","format":"markdown","title":"Unit of measure","description":"Scope: national, Field: UNIT_MEASURE"},"CLASS_SYSTEM":{"type":"string","format":"markdown","title":"Classifications","description":"Scope: national, Field: CLASS_SYSTEM"},"SRC_TYPE_COLL_METHOD":{"type":"string","format":"markdown","title":"Data source type and collection method","description":"Scope: national, Field: SRC_TYPE_COLL_METHOD"},"SOURCE_TYPE":{"type":"string","format":"markdown","title":"Data sources","description":"Scope: national, Field: SOURCE_TYPE"},"COLL_METHOD":{"type":"string","format":"markdown","title":"Data collection method","description":"Scope: national, Field: COLL_METHOD"},"FREQ_COLL":{"type":"string","format":"markdown","title":"Data collection calendar","description":"Scope: national, Field: FREQ_COLL"},"REL_CAL_POLICY":{"type":"string","format":"markdown","title":"Data release calendar","description":"Scope: national, Field: REL_CAL_POLICY"},"DATA_SOURCE":{"type":"string","format":"markdown","title":"Data providers","description":"Scope: national, Field: DATA_SOURCE"},"COMPILING_ORG":{"type":"string","format":"markdown","title":"Data compilers","description":"Scope: national, Field: COMPILING_ORG"},"INST_MANDATE":{"type":"string","format":"markdown","title":"Institutional mandate","description":"Scope: national, Field: INST_MANDATE"},"OTHER_METHOD":{"type":"string","format":"markdown","title":"Other methodological considerations","description":"Scope: national, Field: OTHER_METHOD"},"RATIONALE":{"type":"string","format":"markdown","title":"Rationale","description":"Scope: national, Field: RATIONALE"},"REC_USE_LIM":{"type":"string","format":"markdown","title":"Comment and limitations","description":"Scope: national, Field: REC_USE_LIM"},"DATA_COMP":{"type":"string","format":"markdown","title":"Method of computation","description":"Scope: national, Field: DATA_COMP"},"DATA_VALIDATION":{"type":"string","format":"markdown","title":"Validation","description":"Scope: national, Field: DATA_VALIDATION"},"DOC_METHOD":{"type":"string","format":"markdown","title":"Methods and guidance available to countries for the compilation of the data at the national level","description":"Scope: national, Field: DOC_METHOD"},"QUALITY_MGMNT":{"type":"string","format":"markdown","title":"Quality management","description":"Scope: national, Field: QUALITY_MGMNT"},"QUALITY_ASSURE":{"type":"string","format":"markdown","title":"Quality assurance","description":"Scope: national, Field: QUALITY_ASSURE"},"QUALITY_ASSMNT":{"type":"string","format":"markdown","title":"Quality assessment","description":"Scope: national, Field: QUALITY_ASSMNT"},"COVERAGE":{"type":"string","format":"markdown","title":"Data availability and disaggregation","description":"Scope: national, Field: COVERAGE"},"COMPARABILITY":{"type":"string","format":"markdown","title":"Comparability/deviation from international standards","description":"Scope: national, Field: COMPARABILITY"},"OTHER_DOC":{"type":"string","format":"markdown","title":"References and Documentation","description":"Scope: national, Field: OTHER_DOC"},"national_data_update_url":{"type":"string","format":"markdown","title":"Data last updated","description":"Scope: national, Field: national_data_update_url"},"national_data_update_url_text":{"type":"string","format":"markdown","title":"metadata_fields.national_data_update_url_text","description":"Scope: national, Field: national_data_update_url_text"},"national_metadata_update_url":{"type":"string","format":"markdown","title":"Metadata last updated","description":"Scope: national, Field: national_metadata_update_url"},"national_metadata_update_url_text":{"type":"string","format":"markdown","title":"metadata_fields.national_metadata_update_url_text","description":"Scope: national, Field: national_metadata_update_url_text"}},"additionalProperties":true};
+    var schema = {"type":"object","title":"Edit Metadata","properties":{"SDG_INDICATOR__GLOBAL":{"type":"string","format":"markdown","title":"Indicator","description":"Scope: global, Field: SDG_INDICATOR__GLOBAL"},"SDG_TARGET__GLOBAL":{"type":"string","format":"markdown","title":"Target","description":"Scope: global, Field: SDG_TARGET__GLOBAL"},"META_LAST_UPDATE__GLOBAL":{"type":"string","format":"markdown","title":"Metadata update","description":"Scope: global, Field: META_LAST_UPDATE__GLOBAL"},"SDG_CUSTODIAN_AGENCIES__GLOBAL":{"type":"string","format":"markdown","title":"International organisations(s) responsible for global monitoring","description":"Scope: global, Field: SDG_CUSTODIAN_AGENCIES__GLOBAL"},"SDG_RELATED_INDICATORS__GLOBAL":{"type":"string","format":"markdown","title":"Related indicators","description":"Scope: global, Field: SDG_RELATED_INDICATORS__GLOBAL"},"SDG_INDICATOR_INFO":{"type":"string","format":"markdown","title":"Indicator information","description":"Scope: national, Field: SDG_INDICATOR_INFO"},"SDG_GOAL":{"type":"string","format":"markdown","title":"Goal","description":"Scope: national, Field: SDG_GOAL"},"SDG_TARGET":{"type":"string","format":"markdown","title":"Target","description":"Scope: national, Field: SDG_TARGET"},"SDG_INDICATOR":{"type":"string","format":"markdown","title":"Indicator","description":"Scope: national, Field: SDG_INDICATOR"},"SDG_SERIES_DESCR":{"type":"string","format":"markdown","title":"Series","description":"Scope: national, Field: SDG_SERIES_DESCR"},"META_LAST_UPDATE":{"type":"string","format":"markdown","title":"Metadata update","description":"Scope: national, Field: META_LAST_UPDATE"},"SDG_RELATED_INDICATORS":{"type":"string","format":"markdown","title":"Related indicators","description":"Scope: national, Field: SDG_RELATED_INDICATORS"},"CONTACT":{"type":"string","format":"markdown","title":"Data reporter","description":"Scope: national, Field: CONTACT"},"CONTACT_ORGANISATION":{"type":"string","format":"markdown","title":"Organisation","description":"Scope: national, Field: CONTACT_ORGANISATION"},"CONTACT_NAME":{"type":"string","format":"markdown","title":"Contact person(s)","description":"Scope: national, Field: CONTACT_NAME"},"ORGANISATION_UNIT":{"type":"string","format":"markdown","title":"Contact organisation unit","description":"Scope: national, Field: ORGANISATION_UNIT"},"CONTACT_FUNCT":{"type":"string","format":"markdown","title":"Contact person function","description":"Scope: national, Field: CONTACT_FUNCT"},"CONTACT_PHONE":{"type":"string","format":"markdown","title":"Contact phone","description":"Scope: national, Field: CONTACT_PHONE"},"CONTACT_MAIL":{"type":"string","format":"markdown","title":"Contact mail","description":"Scope: national, Field: CONTACT_MAIL"},"CONTACT_EMAIL":{"type":"string","format":"markdown","title":"Contact email","description":"Scope: national, Field: CONTACT_EMAIL"},"IND_DEF_CON_CLASS":{"type":"string","format":"markdown","title":"Definition, concepts, and classifications","description":"Scope: national, Field: IND_DEF_CON_CLASS"},"STAT_CONC_DEF":{"type":"string","format":"markdown","title":"Definition and concepts","description":"Scope: national, Field: STAT_CONC_DEF"},"UNIT_MEASURE":{"type":"string","format":"markdown","title":"Unit of measure","description":"Scope: national, Field: UNIT_MEASURE"},"CLASS_SYSTEM":{"type":"string","format":"markdown","title":"Classifications","description":"Scope: national, Field: CLASS_SYSTEM"},"SRC_TYPE_COLL_METHOD":{"type":"string","format":"markdown","title":"Data source type and collection method","description":"Scope: national, Field: SRC_TYPE_COLL_METHOD"},"SOURCE_TYPE":{"type":"string","format":"markdown","title":"Data sources","description":"Scope: national, Field: SOURCE_TYPE"},"COLL_METHOD":{"type":"string","format":"markdown","title":"Data collection method","description":"Scope: national, Field: COLL_METHOD"},"FREQ_COLL":{"type":"string","format":"markdown","title":"Data collection calendar","description":"Scope: national, Field: FREQ_COLL"},"REL_CAL_POLICY":{"type":"string","format":"markdown","title":"Data release calendar","description":"Scope: national, Field: REL_CAL_POLICY"},"DATA_SOURCE":{"type":"string","format":"markdown","title":"Data providers","description":"Scope: national, Field: DATA_SOURCE"},"COMPILING_ORG":{"type":"string","format":"markdown","title":"Data compilers","description":"Scope: national, Field: COMPILING_ORG"},"INST_MANDATE":{"type":"string","format":"markdown","title":"Institutional mandate","description":"Scope: national, Field: INST_MANDATE"},"OTHER_METHOD":{"type":"string","format":"markdown","title":"Other methodological considerations","description":"Scope: national, Field: OTHER_METHOD"},"RATIONALE":{"type":"string","format":"markdown","title":"Rationale","description":"Scope: national, Field: RATIONALE"},"REC_USE_LIM":{"type":"string","format":"markdown","title":"Comment and limitations","description":"Scope: national, Field: REC_USE_LIM"},"DATA_COMP":{"type":"string","format":"markdown","title":"Method of computation","description":"Scope: national, Field: DATA_COMP"},"DATA_VALIDATION":{"type":"string","format":"markdown","title":"Validation","description":"Scope: national, Field: DATA_VALIDATION"},"DOC_METHOD":{"type":"string","format":"markdown","title":"Methods and guidance available to countries for the compilation of the data at the national level","description":"Scope: national, Field: DOC_METHOD"},"QUALITY_MGMNT":{"type":"string","format":"markdown","title":"Quality management","description":"Scope: national, Field: QUALITY_MGMNT"},"QUALITY_ASSURE":{"type":"string","format":"markdown","title":"Quality assurance","description":"Scope: national, Field: QUALITY_ASSURE"},"QUALITY_ASSMNT":{"type":"string","format":"markdown","title":"Quality assessment","description":"Scope: national, Field: QUALITY_ASSMNT"},"COVERAGE":{"type":"string","format":"markdown","title":"Data availability and disaggregation","description":"Scope: national, Field: COVERAGE"},"COMPARABILITY":{"type":"string","format":"markdown","title":"Comparability/deviation from international standards","description":"Scope: national, Field: COMPARABILITY"},"OTHER_DOC":{"type":"string","format":"markdown","title":"References and Documentation","description":"Scope: national, Field: OTHER_DOC"},"national_data_update_url":{"type":"string","format":"markdown","title":"Data last updated","description":"Scope: national, Field: national_data_update_url"},"national_data_update_url_text":{"type":"string","format":"markdown","title":"metadata_fields.national_data_update_url_text","description":"Scope: national, Field: national_data_update_url_text"},"national_metadata_update_url":{"type":"string","format":"markdown","title":"Metadata last updated","description":"Scope: national, Field: national_metadata_update_url"},"national_metadata_update_url_text":{"type":"string","format":"markdown","title":"metadata_fields.national_metadata_update_url_text","description":"Scope: national, Field: national_metadata_update_url_text"},"un_designated_tier":{"type":"string","format":"markdown","title":"UN designated tier","description":"Scope: global, Field: un_designated_tier"}},"additionalProperties":true};
     
       
         
@@ -648,91 +648,63 @@ data-event-label="high"
     }
 
     // Set values according to this site's configuration.
-    propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR_INFO__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_GOAL__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_TARGET__GLOBAL'));
-
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_INDICATOR__GLOBAL', "<p>Indicator 16.4.2: Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments</p>");
+        var propertyEditor = editor.getEditor('root.SDG_INDICATOR__GLOBAL');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_INDICATOR__GLOBAL');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR__GLOBAL'));
 
-    propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_SERIES_DESCR__GLOBAL'));
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_TARGET__GLOBAL', "<p>Target 16.4: By 2030, significantly reduce illicit financial and arms flows, strengthen the recovery and return of stolen assets and combat all forms of organized crime</p>");
+        var propertyEditor = editor.getEditor('root.SDG_TARGET__GLOBAL');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_TARGET__GLOBAL');
+      }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_TARGET__GLOBAL'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('META_LAST_UPDATE__GLOBAL', "2018-07-26");
+        var propertyEditor = editor.getEditor('root.META_LAST_UPDATE__GLOBAL');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: META_LAST_UPDATE__GLOBAL');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.META_LAST_UPDATE__GLOBAL'));
 
-    propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_RELATED_INDICATORS__GLOBAL'));
-
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_CUSTODIAN_AGENCIES__GLOBAL', "<p>UNODC and UNODA</p>");
+        var propertyEditor = editor.getEditor('root.SDG_CUSTODIAN_AGENCIES__GLOBAL');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_CUSTODIAN_AGENCIES__GLOBAL');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_CUSTODIAN_AGENCIES__GLOBAL'));
 
-    propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_ORGANISATION__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_NAME__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.ORGANISATION_UNIT__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_FUNCT__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_PHONE__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_MAIL__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_EMAIL__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.IND_DEF_CON_CLASS__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.STAT_CONC_DEF__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.UNIT_MEASURE__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.CLASS_SYSTEM__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.SRC_TYPE_COLL_METHOD__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.SOURCE_TYPE__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.COLL_METHOD__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.FREQ_COLL__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.REL_CAL_POLICY__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_SOURCE__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.COMPILING_ORG__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.INST_MANDATE__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_METHOD__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.RATIONALE__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.REC_USE_LIM__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_COMP__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.DATA_VALIDATION__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.ADJUSTMENT__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.IMPUTATION__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.REG_AGG__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.DOC_METHOD__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.QUALITY_MGMNT__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.QUALITY_ASSURE__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.QUALITY_ASSMNT__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.COVERAGE__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.COMPARABILITY__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_DOC__GLOBAL'));
+    propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_RELATED_INDICATORS__GLOBAL'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR_INFO'));
 
@@ -819,6 +791,8 @@ data-event-label="high"
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url_text'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.un_designated_tier'));
 
     
 
@@ -952,12 +926,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220113134129'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220324174944'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220113134129"></script><script>
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220324174944"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
